@@ -2,7 +2,8 @@
 
 This repo is a clone/closely follows the instruction of repo - https://github.com/mjhea0/flaskr-tdd
 
-** Activity 2 - Unit Test Link **
+**Activity 2 - Unit Test Link**
+
 https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/blob/124ed0856a3645b819ed47180073b2f226342cbe/tests/app_test.py#L32
 
 Implemented test_club_info_page to test for correct response codes when accessing club pages.
