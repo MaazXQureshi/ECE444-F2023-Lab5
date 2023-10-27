@@ -85,3 +85,16 @@ def test_delete_message(client):
     rv = client.get("/delete/1")
     data = json.loads(rv.data)
     assert data["status"] == 1
+    # Added extra test that within same function as per Login Required section below
+    # Check to see if posts can still be deleted after user logs out after logging in
+    logout(client)
+    rv = client.get("/delete/1")
+    data = json.loads(rv.data)
+    assert data["status"] == 0
+
+# Test search page added as per Search Page section 
+def test_search_page(client):
+    response = client.get("/search/", content_type="html/text")
+    assert response.status_code == 200
+    response = client.get("/search/invalidurl", content_type="html/text")
+    assert response.status_code == 404
