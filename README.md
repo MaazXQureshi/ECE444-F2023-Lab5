@@ -8,9 +8,13 @@ https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/
 
 Implemented test_club_info_page to test for correct response codes when accessing club pages.
 
-Also implemented test_index and test_database above along with initializing test.tb with test data in a commit from last week:
+Also implemented test_index and test_database above along with initializing test.sqlite database with test data in a commit from last week:
 
 https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/pull/8
+
+Added 2 tests of my own as per Login Required and Search Page section:
+
+https://github.com/MaazXQureshi/ECE444-F2023-Lab5/blob/dc0796533b437abf2f7986262e579245e186270c/tests/app_test.py#L88
 
 **Activity 3 - Pros/Cons of TDD**
 
