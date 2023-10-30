@@ -4,9 +4,13 @@ This repo is a clone/closely follows the instruction of repo - https://github.co
 
 **Activity 2 - Unit Test Link**
 
-https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/blob/124ed0856a3645b819ed47180073b2f226342cbe/tests/app_test.py#L32
+UPDATED after login system:
 
-Implemented test_club_info_page to test for correct response codes when accessing club pages.
+https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/blob/e72d0f18f87145e38cc92cc658c0675f6ae288ea/tests/app_test.py#L107
+
+Implemented test_club_info_page to test for correct response codes when accessing club pages:
+
+https://github.com/ECE444-2023Fall/project-1-web-application-design-group5-frog/blob/124ed0856a3645b819ed47180073b2f226342cbe/tests/app_test.py#L32
 
 Also implemented test_index and test_database above along with initializing test.sqlite database with test data in a commit from last week:
 
